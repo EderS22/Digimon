@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&family=Road+Rage&display=swap');
+
+body{
+    font-family: 'Red Hat Mono', monospace;
+    background-color: #FCEFC5;
+}
+
+h1{
+    border-radius: 15px;
+    background-color: #F0BF4C;
+    text-align: center;
+    font-family: 'Road Rage', cursive;
+    font-size: 350%;
+    transition: 1s;
+}
+
+h1:hover{
+    font-size: 410%;
+    transition: 1s;
+}
+
+#pagination-container{
+   display: flex;
+   justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    transition: 1s;
+}
+
+a:hover{
+    font-size: 120%;
+    transition: 1s;
+    text-decoration: none;
+}
+
+div.paginationjs{
+    font-family: cursive;
+}
+
